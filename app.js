@@ -8,7 +8,6 @@ let hiragana = 0;
 let kanji = 0;
 let katakana = 0;
 
-
 const REGEX_HIRAGANA = /[\u3041-\u3096]/;
 
 //using the one below and the current REGEX_KATAKANA causes it to detect some duplicates like ー
@@ -65,4 +64,5 @@ function updateRows() {
   document.getElementById("hiragana").innerHTML = hiragana;
   document.getElementById("kanji").innerHTML = kanji;
   document.getElementById("katakana").innerHTML = katakana;
+  document.getElementById("total").innerHTML = hiragana+kanji+katakana;
 }

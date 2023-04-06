@@ -30,10 +30,15 @@ p {
   grid-row: 1 / 2;
 }
 
-#charactertable {
+.charactertable {
   grid-column: 2;
   grid-row: 2 / 3;
 }
+.totaltable {
+  grid-column: 2;
+  grid-row: 3 / 4;
+}
+
 /*
 #calculate_button {
   background: #0099ff;
@@ -45,10 +50,14 @@ p {
   grid-row: 3 / 4;
 }
 */
-table {  
+.charactertable {  
   border-collapse: collapse;
   width: 40em;
   margin: 1em;
+}
+.totaltable {
+  border-collapse: collapse;
+  width: 5em;
 }
 
 td, th {
